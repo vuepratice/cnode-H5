@@ -37,6 +37,7 @@ export default {
   .container {
     display: flex;
     margin: auto;
+    padding: 20px 0;
     background-color: #444;
     z-index: 99;
     align-items: center;
@@ -58,6 +59,7 @@ export default {
     font-weight: 700;
   }
   .search {
+    width: 150px;
     padding: 3px 5px 3px 22px;
     border-radius: 15px;
   }

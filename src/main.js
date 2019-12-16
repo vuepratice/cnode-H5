@@ -4,9 +4,15 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import store from '@/store'
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
 import '@/styles/reset.css'
 import '@/styles/index.scss'
 import 'amfe-flexible'
+import Vconsole from 'vconsole'
+let vConsole = new Vconsole()
+Vue.use(ElementUI)
+Vue.use(vConsole)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
